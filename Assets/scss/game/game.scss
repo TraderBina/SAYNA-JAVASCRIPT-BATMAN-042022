@@ -1,0 +1,44 @@
+@import url('../index.css');
+body{
+    h2{
+        display: none;
+    }
+    header{
+        background-image: url("../../Illustrations/Game/Batgame1.png");
+        background-size: cover;
+        .play{
+            
+            h1{
+                letter-spacing: 2px;
+                padding: 10% 0 768px 0;
+            }
+        }
+
+    }
+    .game1 .question {
+        line-height: 100px;
+        .choice{
+            width: 600px;
+            background-color: rgba(#BCBBBD, 0.5);
+            margin-bottom: 10px;
+            height: 30px;
+            padding-left: 10px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            
+            input{
+                
+                width: 20px;
+                height: 20px;
+            }
+
+
+            
+            
+        }
+
+    }
+
+}
